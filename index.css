@@ -1,0 +1,166 @@
+body{
+    margin:0px;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 0.5px solid lightgray;
+    align-items: center;
+}
+#titulos{ 
+    margin-left: 50px;
+}
+#titulos h4{
+    margin: -5px 5px;
+}
+nav ul{
+    list-style-type: none;
+    align-items: center;
+    padding: 15px;
+}
+nav li{
+    padding: 14px 16px 14px 16px;
+    float:right;
+    border-radius: 10px;
+    margin: 0px -7px 0px -7px;
+    background-color: lightsalmon;
+}
+    
+nav li a{
+    display: block;          
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.centrado {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cita{
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+    margin: 60px 100px 60px 100px;
+}
+#seccion1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:30px;
+    
+}
+section a{
+    text-decoration: none;
+    color:salmon;
+}
+.boton{
+    display:flex;
+    justify-content: center;
+    border-top: lightgray 1px solid;
+}
+.botonInt{
+    background-color: salmon;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+}
+#ourServices{
+    display: flex;
+    justify-content: space-evenly;
+}
+#ourServices div{
+    margin: 0px 40px 0px 40px;
+}
+
+#seccion2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:30px;
+}
+
+#ourPlayers{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+#ourPlayers div{
+    margin: 0px 40px 0px 40px;
+}
+#ourPlayers img{
+    height: 175px;
+    width: 175px;
+}
+#seccion3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:30px;
+}
+
+#lastestWork{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+footer{
+    background-color:lightgray;
+    margin-bottom: 10px;
+    padding:10px;
+}
+#footer1{
+    display: flex;
+}
+#articulos{
+    padding: 10px;
+}
+#blog{
+    align-items: center;
+}
+#blog1{
+    display: flex;
+    padding:10px;
+}
+#blog1 div{
+    padding:5px;
+}
+#blog2{
+    display: flex;
+    padding:10px;
+}
+#blog2 div{
+    padding: 5px;
+}
+.negri{
+    font-size: medium;
+    font-weight: bold;
+}
+.blogs{
+    color:red;
+    font-weight: bold;
+}
+#contactotitulo{
+    padding:10px;
+}
+.datos{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.datos p{
+    margin:0em;
+}
+#contactUs{
+    justify-content: center;
+    margin:10px;
+}
+#footer2{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
